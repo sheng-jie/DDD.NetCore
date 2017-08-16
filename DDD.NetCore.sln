@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.NetCore", "DDD.NetCore\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.NetCore.Domain", "DDD.NetCore.Domain\DDD.NetCore.Domain.csproj", "{00365BC2-A1CF-4CFF-8CAF-5E1E49EFD1A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.NetCore.Application", "DDD.NetCore.Application\DDD.NetCore.Application.csproj", "{794B50EE-EE39-4FB6-8291-8F40C366217C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{00365BC2-A1CF-4CFF-8CAF-5E1E49EFD1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00365BC2-A1CF-4CFF-8CAF-5E1E49EFD1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00365BC2-A1CF-4CFF-8CAF-5E1E49EFD1A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{794B50EE-EE39-4FB6-8291-8F40C366217C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{794B50EE-EE39-4FB6-8291-8F40C366217C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{794B50EE-EE39-4FB6-8291-8F40C366217C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{794B50EE-EE39-4FB6-8291-8F40C366217C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
