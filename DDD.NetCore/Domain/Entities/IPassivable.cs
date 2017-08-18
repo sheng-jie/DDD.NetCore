@@ -1,4 +1,4 @@
-﻿namespace DDD.NetCore.Entities
+﻿namespace DDD.NetCore.Domain.Entities
 {
     /// <summary>
     /// This interface is used to make an entity active/passive.

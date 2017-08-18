@@ -1,4 +1,4 @@
-﻿namespace DDD.NetCore.Entities
+﻿namespace DDD.NetCore.Domain.Entities
 {
     /// <summary>
     /// Used to standardize soft deleting entities.

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DDD.NetCore.Entities
+﻿namespace DDD.NetCore.Domain.Entities
 {
     public interface IEntity : IEntity<int>
     {

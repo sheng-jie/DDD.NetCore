@@ -1,4 +1,4 @@
-﻿namespace DDD.NetCore.Entities
+﻿namespace DDD.NetCore.Domain.Entities
 {
     public interface IAggregateRoot : IAggregateRoot<int>, IEntity
     {
