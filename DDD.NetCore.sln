@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.NetCore.Web", "DDD.NetCore.Web\DDD.NetCore.Web.csproj", "{8182E4C8-C906-4C72-92BC-720E11BBFE11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.NetCore.Web", "DDD.NetCore.Web\DDD.NetCore.Web.csproj", "{8182E4C8-C906-4C72-92BC-720E11BBFE11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.NetCore", "DDD.NetCore\DDD.NetCore.csproj", "{C387ED6D-25B5-4B57-BB7A-5CD88DDBD50E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.NetCore", "DDD.NetCore\DDD.NetCore.csproj", "{C387ED6D-25B5-4B57-BB7A-5CD88DDBD50E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.NetCore.Domain", "DDD.NetCore.Domain\DDD.NetCore.Domain.csproj", "{00365BC2-A1CF-4CFF-8CAF-5E1E49EFD1A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.NetCore.Domain", "DDD.NetCore.Domain\DDD.NetCore.Domain.csproj", "{00365BC2-A1CF-4CFF-8CAF-5E1E49EFD1A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.NetCore.Application", "DDD.NetCore.Application\DDD.NetCore.Application.csproj", "{794B50EE-EE39-4FB6-8291-8F40C366217C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.NetCore.Application", "DDD.NetCore.Application\DDD.NetCore.Application.csproj", "{794B50EE-EE39-4FB6-8291-8F40C366217C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.NetCore.Infrastructure", "DDD.NetCore.Infrastructure\DDD.NetCore.Infrastructure.csproj", "{27F1B2E8-2AAF-436E-911A-54E966F75C10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.NetCore.Test", "DDD.NetCore.Test\DDD.NetCore.Test.csproj", "{D8CD6278-DF91-4245-8A08-519E3EA5A0B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{50877D5A-ECC8-466F-B1CA-855C3408EE87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +39,20 @@ Global
 		{794B50EE-EE39-4FB6-8291-8F40C366217C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{794B50EE-EE39-4FB6-8291-8F40C366217C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{794B50EE-EE39-4FB6-8291-8F40C366217C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F1B2E8-2AAF-436E-911A-54E966F75C10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F1B2E8-2AAF-436E-911A-54E966F75C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F1B2E8-2AAF-436E-911A-54E966F75C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F1B2E8-2AAF-436E-911A-54E966F75C10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8CD6278-DF91-4245-8A08-519E3EA5A0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8CD6278-DF91-4245-8A08-519E3EA5A0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8CD6278-DF91-4245-8A08-519E3EA5A0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8CD6278-DF91-4245-8A08-519E3EA5A0B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8CD6278-DF91-4245-8A08-519E3EA5A0B7} = {50877D5A-ECC8-466F-B1CA-855C3408EE87}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7E33949-32A5-414E-B82E-A590515AEFFE}
