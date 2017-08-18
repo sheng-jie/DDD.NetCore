@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using DDD.NetCore.Entities;
+using DDD.NetCore.Domain.Entities;
 
 namespace DDD.NetCore.Domain.ShoppingCarts
 {

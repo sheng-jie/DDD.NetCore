@@ -2,7 +2,7 @@
 
 namespace DDD.NetCore.Domain.Authorization
 {
-    public class ApplicationUser : Microsoft.AspNetCore.Identity;
+    public class ApplicationUser : IdentityUser
     {
 
     }

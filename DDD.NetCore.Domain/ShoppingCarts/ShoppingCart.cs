@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using DDD.NetCore.Domain.Customers;
-using DDD.NetCore.Entities;
+using DDD.NetCore.Domain.Entities;
 
 namespace DDD.NetCore.Domain.ShoppingCarts
 {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using DDD.NetCore.Domain.Authorization;
+using DDD.NetCore.Domain.Entities;
 using DDD.NetCore.Domain.ShoppingCarts;
-using DDD.NetCore.Entities;
 
 namespace DDD.NetCore.Domain.Customers
 {
